@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        LaunchTheme: shown while Flutter engine loads.
+        Theme.AppCompat.Light.NoActionBar is the recommended parent for Flutter apps —
+        avoids the deprecated @android:style/Theme.Light which is removed in API 29+.
+    -->
+    <style name="LaunchTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/launch_background</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+    </style>
+
+    <!--
+        NormalTheme: shown behind Flutter UI once engine is running.
+    -->
+    <style name="NormalTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">?android:colorBackground</item>
+    </style>
+</resources>

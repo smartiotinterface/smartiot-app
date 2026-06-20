@@ -1,0 +1,321 @@
+{
+    "rules": {
+        "devices": {
+            "$deviceId": {
+                "status": {
+                    ".read": "auth != null && (root.child('device_owners').child($deviceId).val() === auth.uid || root.child('device_shared').child($deviceId).child(auth.uid).val() === true)",
+                    ".write": "auth != null && root.child('device_owners').child($deviceId).val() === auth.uid",
+                    "water_level": {
+                        ".validate": "newData.isString() && newData.val().length <= 10"
+                    },
+                    "water_level_pct": {
+                        ".validate": "newData.isNumber() && newData.val() >= 0 && newData.val() <= 100"
+                    },
+                    "pump": {
+                        ".validate": "newData.isString() && (newData.val() === 'ON' || newData.val() === 'OFF')"
+                    },
+                    "mode": {
+                        ".validate": "newData.isString() && (newData.val() === 'AUTO' || newData.val() === 'MANUAL')"
+                    },
+                    "ts": {
+                        ".validate": "newData.isNumber() && newData.val() > 0"
+                    },
+                    "firmware": {
+                        ".validate": "newData.isString() && newData.val().length <= 20"
+                    },
+                    "serial": {
+                        ".validate": "newData.isString() && newData.val().length <= 30"
+                    },
+                    "alarm": {
+                        ".validate": "newData.isBoolean()"
+                    },
+                    "dry_run": {
+                        ".validate": "newData.isBoolean()"
+                    },
+                    "wifi_rssi": {
+                        ".validate": "newData.isNumber() && newData.val() >= -120 && newData.val() <= 0"
+                    },
+                    "uptime": {
+                        ".validate": "newData.isString() && newData.val().length <= 20"
+                    },
+                    "sensor_mode": {
+                        ".validate": "newData.isString() && (newData.val() === 'FLOAT' || newData.val() === 'ULTRA')"
+                    },
+                    "pump_cycles": {
+                        ".validate": "newData.isNumber() && newData.val() >= 0 && newData.val() <= 999999"
+                    },
+                    "pump_total_s": {
+                        ".validate": "newData.isNumber() && newData.val() >= 0"
+                    },
+                    "boot_count": {
+                        ".validate": "newData.isNumber() && newData.val() >= 0"
+                    },
+                    "heap_free": {
+                        ".validate": "newData.isNumber() && newData.val() >= 0"
+                    },
+                    "sleeping": {
+                        ".validate": "newData.isBoolean()"
+                    },
+                    "bd_time": {
+                        ".validate": "newData.isString() && newData.val().length <= 15"
+                    },
+                    "$other": {
+                        ".validate": false
+                    }
+                },
+                "control": {
+                    ".read": "auth != null && (root.child('device_owners').child($deviceId).val() === auth.uid || root.child('device_shared').child($deviceId).child(auth.uid).val() === true)",
+                    ".write": "auth != null && (root.child('device_owners').child($deviceId).val() === auth.uid || root.child('device_shared').child($deviceId).child(auth.uid).val() === true)",
+                    "pump_cmd": {
+                        ".validate": "newData.isString() && (newData.val() === 'ON' || newData.val() === 'OFF')"
+                    },
+                    "mode_cmd": {
+                        ".validate": "newData.isString() && (newData.val() === 'AUTO' || newData.val() === 'MANUAL')"
+                    },
+                    "cmd_ts": {
+                        ".validate": "newData.isNumber() && newData.val() > 0 && newData.val() > (now / 1000) - 90"
+                    },
+                    "dry_run_reset": {
+                        ".validate": "newData.isBoolean()"
+                    },
+                    "ota_url": {
+                        ".validate": "newData.isString() && newData.val().length <= 500 && newData.val().matches(/^https:\\/\\/.*$/) && newData.parent().child('ota_sha256').exists()"
+                    },
+                    "ota_sha256": {
+                        ".validate": "newData.isString() && newData.val().length === 64 && newData.val().matches(/^[a-f0-9]+$/)"
+                    },
+                    "mute_cmd": {
+                        ".validate": "newData.isBoolean()"
+                    },
+                    "$other": {
+                        ".validate": false
+                    }
+                },
+                "history": {
+                    ".read": "auth != null && (root.child('device_owners').child($deviceId).val() === auth.uid || root.child('device_shared').child($deviceId).child(auth.uid).val() === true)",
+                    ".write": "auth != null && root.child('device_owners').child($deviceId).val() === auth.uid",
+                    ".indexOn": "ts",
+                    "$entry": {
+                        ".validate": "newData.hasChildren(['event', 'ts'])",
+                        "event": {
+                            ".validate": "newData.isString() && newData.val().length > 0 && newData.val().length <= 200"
+                        },
+                        "ts": {
+                            ".validate": "newData.isNumber() && newData.val() > 0"
+                        },
+                        "$other": {
+                            ".validate": false
+                        }
+                    }
+                },
+                "meta": {
+                    ".read": "auth != null && (root.child('device_owners').child($deviceId).val() === auth.uid || root.child('device_shared').child($deviceId).child(auth.uid).val() === true)",
+                    ".write": "auth != null && root.child('device_owners').child($deviceId).val() === auth.uid",
+                    "serial": {
+                        ".validate": "newData.isString() && newData.val().length > 0 && newData.val().length <= 30"
+                    },
+                    "firmware": {
+                        ".validate": "newData.isString() && newData.val().length <= 20"
+                    },
+                    "device_name": {
+                        ".validate": "newData.isString() && newData.val().length > 0 && newData.val().length <= 100"
+                    },
+                    "owner_id": {
+                        ".validate": "newData.isString() && newData.val().length > 0"
+                    },
+                    "registered_at": {
+                        ".validate": "newData.isNumber() && newData.val() > 0"
+                    },
+                    "calibration": {
+                        ".validate": "newData.hasChildren()"
+                    },
+                    "thresholds": {
+                        ".validate": "newData.hasChildren()"
+                    },
+                    "flow_rate_lpm": {
+                        ".validate": "newData.isNumber() && newData.val() > 0"
+                    },
+                    "$other": {
+                        ".validate": false
+                    }
+                },
+                "alerts": {
+                    ".read": "auth != null && (root.child('device_owners').child($deviceId).val() === auth.uid || root.child('device_shared').child($deviceId).child(auth.uid).val() === true)",
+                    ".write": "auth != null && root.child('device_owners').child($deviceId).val() === auth.uid",
+                    "lastAuto": {
+                        ".validate": "newData.hasChildren(['name','ts'])",
+                        "name": {
+                            ".validate": "newData.isString() && newData.val().length <= 100"
+                        },
+                        "ts": {
+                            ".validate": "newData.isNumber() && newData.val() > 0"
+                        },
+                        "$other": {
+                            ".validate": false
+                        }
+                    }
+                }
+            }
+        },
+        "device_owners": {
+            "$deviceId": {
+                ".read": "auth != null && (data.val() === auth.uid || root.child('device_shared').child($deviceId).child(auth.uid).val() === true)",
+                ".write": "auth != null && (!data.exists() || data.val() === auth.uid)",
+                ".validate": "newData.isString() && newData.val().length > 0 && newData.val() === auth.uid"
+            }
+        },
+        "device_shared": {
+            "$deviceId": {
+                ".read": "auth != null && root.child('device_owners').child($deviceId).val() === auth.uid",
+                ".write": "auth != null && root.child('device_owners').child($deviceId).val() === auth.uid",
+                "$targetUid": {
+                    ".validate": "newData.isBoolean() && $targetUid !== auth.uid && $targetUid.length > 0"
+                }
+            }
+        },
+        "users": {
+            "$uid": {
+                ".read": "auth != null && auth.uid === $uid",
+                ".write": "auth != null && auth.uid === $uid",
+                "devices": {
+                    "$deviceId": {
+                        ".validate": "newData.isBoolean()"
+                    }
+                },
+                "shared_devices": {
+                    "$deviceId": {
+                        ".validate": "newData.isBoolean()"
+                    }
+                },
+                "preferences": {
+                    "$key": {
+                        ".validate": "newData.isString() || newData.isBoolean() || newData.isNumber()"
+                    }
+                },
+                "profile": {
+                    "displayName": {
+                        ".validate": "newData.isString() && newData.val().length <= 100"
+                    },
+                    "photoURL": {
+                        ".validate": "newData.isString() && newData.val().length <= 500 && newData.val().matches(/^https:\\/\\/.*$/)"
+                    },
+                    "provider": {
+                        ".validate": "newData.isString() && newData.val().length <= 50"
+                    },
+                    "$other": {
+                        ".validate": false
+                    }
+                },
+                "fcmToken": {
+                    ".read": "auth != null && auth.uid === $uid",
+                    ".write": "auth != null && auth.uid === $uid",
+                    ".validate": "newData.isString() && newData.val().length <= 500"
+                },
+                "$other": {
+                    ".validate": false
+                }
+            }
+        },
+        "schedules": {
+            "$deviceId": {
+                ".read": "auth != null && (root.child('device_owners').child($deviceId).val() === auth.uid || root.child('device_shared').child($deviceId).child(auth.uid).val() === true)",
+                ".write": "auth != null && root.child('device_owners').child($deviceId).val() === auth.uid",
+                "$scheduleId": {
+                    ".validate": "newData.hasChildren(['active', 'ts'])",
+                    "active": {
+                        ".validate": "newData.isBoolean()"
+                    },
+                    "ts": {
+                        ".validate": "newData.isNumber() && newData.val() > 0"
+                    },
+                    "action": {
+                        ".validate": "newData.isString() && newData.val().length <= 50"
+                    },
+                    "hour": {
+                        ".validate": "newData.isNumber() && newData.val() >= 0 && newData.val() <= 23"
+                    },
+                    "minute": {
+                        ".validate": "newData.isNumber() && newData.val() >= 0 && newData.val() <= 59"
+                    },
+                    "duration_min": {
+                        ".validate": "newData.isNumber() && newData.val() >= 1 && newData.val() <= 240"
+                    },
+                    "$other": {
+                        ".validate": false
+                    }
+                }
+            }
+        },
+        "user_lookup": {
+            "$emailKey": {
+                ".read": "auth != null",
+                ".write": "auth != null && newData.val() === auth.uid && (!data.exists() || data.val() === auth.uid)",
+                ".validate": "newData.isString() && newData.val().length > 0 && newData.val() === auth.uid"
+            }
+        },
+        "scenes": {
+            "$deviceId": {
+                ".read": "auth != null && (root.child('device_owners').child($deviceId).val() === auth.uid || root.child('device_shared').child($deviceId).child(auth.uid).val() === true)",
+                ".write": "auth != null && root.child('device_owners').child($deviceId).val() === auth.uid",
+                "$sceneId": {
+                    ".validate": "newData.hasChildren(['name','pumpCmd','modeCmd','color','createdAt'])",
+                    "name": {
+                        ".validate": "newData.isString() && newData.val().length <= 50"
+                    },
+                    "pumpCmd": {
+                        ".validate": "newData.isString() && (newData.val() === 'ON' || newData.val() === 'OFF' || newData.val() === 'NONE')"
+                    },
+                    "modeCmd": {
+                        ".validate": "newData.isString() && (newData.val() === 'AUTO' || newData.val() === 'MANUAL' || newData.val() === 'NONE')"
+                    },
+                    "icon": {
+                        ".validate": "newData.isString() && newData.val().length <= 10"
+                    },
+                    "color": {
+                        ".validate": "newData.isString() && newData.val().length <= 20"
+                    },
+                    "createdAt": {
+                        ".validate": "newData.isNumber() && newData.val() > 0"
+                    },
+                    "$other": {
+                        ".validate": false
+                    }
+                }
+            }
+        },
+        "automations": {
+            "$deviceId": {
+                ".read": "auth != null && (root.child('device_owners').child($deviceId).val() === auth.uid || root.child('device_shared').child($deviceId).child(auth.uid).val() === true)",
+                ".write": "auth != null && root.child('device_owners').child($deviceId).val() === auth.uid",
+                "$automationId": {
+                    ".validate": "newData.hasChildren(['name','triggerType','triggerValue','actionType','enabled','createdAt'])",
+                    "name": {
+                        ".validate": "newData.isString() && newData.val().length <= 60"
+                    },
+                    "triggerType": {
+                        ".validate": "newData.isString() && (newData.val() === 'level_below' || newData.val() === 'level_above' || newData.val() === 'pump_on_mins' || newData.val() === 'time_of_day')"
+                    },
+                    "triggerValue": {
+                        ".validate": "newData.isNumber() && newData.val() >= 0 && newData.val() <= 120"
+                    },
+                    "actionType": {
+                        ".validate": "newData.isString() && (newData.val() === 'pump_on' || newData.val() === 'pump_off' || newData.val() === 'mode_auto' || newData.val() === 'mode_manual' || newData.val() === 'alert')"
+                    },
+                    "enabled": {
+                        ".validate": "newData.isBoolean()"
+                    },
+                    "createdAt": {
+                        ".validate": "newData.isNumber() && newData.val() > 0"
+                    },
+                    "$other": {
+                        ".validate": false
+                    }
+                }
+            }
+        },
+        "$other": {
+            ".read": false,
+            ".write": false
+        }
+    }
+}

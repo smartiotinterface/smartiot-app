@@ -1,0 +1,9 @@
+# android/key.properties.template
+# ══════════════════════════════════════════════════════════════════════════════
+#  Copy this file to android/key.properties and fill in real values.
+#  NEVER commit android/key.properties to git — it's in .gitignore.
+# ══════════════════════════════════════════════════════════════════════════════
+storePassword=YOUR_KEYSTORE_PASSWORD
+keyPassword=YOUR_KEY_PASSWORD
+keyAlias=smartiot
+storeFile=smartiot-release.jks

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    SmartIoT Splash Screen Background
+    Uses brand dark color from colors.xml
+    To add a centered logo: uncomment the <bitmap> item below
+    and place your launch_logo.png in res/drawable/
+-->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Brand background color -->
+    <item android:drawable="@color/brand_splash_bg"/>
+
+    <!-- Centered app logo — add launch_logo.png to res/drawable/ to enable -->
+    <!--
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/launch_logo"/>
+    </item>
+    -->
+</layer-list>

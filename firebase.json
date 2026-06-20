@@ -1,0 +1,27 @@
+{
+  "database": {
+    "rules": "firebase/database.rules.json"
+  },
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "smartiot-8190a",
+          "appId": "1:353683838193:android:a9fa82f1e6dc721b4bc550",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "smartiot-8190a",
+          "configurations": {
+            "android": "1:353683838193:android:a9fa82f1e6dc721b4bc550",
+            "ios": "1:353683838193:ios:60e3c91ca6bfed614bc550",
+            "macos": "1:353683838193:ios:60e3c91ca6bfed614bc550",
+            "web": "1:353683838193:web:c23438501b5e4e994bc550"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1634 @@
+{
+  "@@locale": "en",
+  "app_name": "Smart IoT Interface",
+  "@app_name": {
+    "description": "App name"
+  },
+  "product_name": "Smart Water Level Control BD",
+  "@product_name": {
+    "description": "Full product name"
+  },
+  "login": "Login",
+  "@login": {
+    "description": "Login button label"
+  },
+  "register": "Register",
+  "@register": {
+    "description": "Register button label"
+  },
+  "email": "Email",
+  "@email": {
+    "description": "Email field label"
+  },
+  "password": "Password",
+  "@password": {
+    "description": "Password field label"
+  },
+  "forgot_password": "Forgot Password?",
+  "@forgot_password": {
+    "description": "Forgot password link"
+  },
+  "water_level": "Water Level",
+  "@water_level": {
+    "description": "Water level label"
+  },
+  "pump_status": "Pump Status",
+  "@pump_status": {
+    "description": "Pump status label"
+  },
+  "pump_on": "Pump ON",
+  "@pump_on": {
+    "description": "Pump on state"
+  },
+  "pump_off": "Pump OFF",
+  "@pump_off": {
+    "description": "Pump off state"
+  },
+  "mode": "Mode",
+  "@mode": {
+    "description": "Mode label"
+  },
+  "auto": "AUTO",
+  "@auto": {
+    "description": "Auto mode"
+  },
+  "manual": "MANUAL",
+  "@manual": {
+    "description": "Manual mode"
+  },
+  "on": "ON",
+  "@on": {
+    "description": "On state"
+  },
+  "off": "OFF",
+  "@off": {
+    "description": "Off state"
+  },
+  "settings": "Settings",
+  "@settings": {
+    "description": "Settings screen title"
+  },
+  "history": "History",
+  "@history": {
+    "description": "History screen title"
+  },
+  "logout": "Logout",
+  "@logout": {
+    "description": "Logout button"
+  },
+  "dark_mode": "Dark Mode",
+  "@dark_mode": {
+    "description": "Dark mode toggle"
+  },
+  "language": "Language",
+  "@language": {
+    "description": "Language selector"
+  },
+  "about": "About",
+  "@about": {
+    "description": "About section"
+  },
+  "version": "Version",
+  "@version": {
+    "description": "App version label"
+  },
+  "developer": "Developer",
+  "@developer": {
+    "description": "Developer label"
+  },
+  "contact_us": "Contact Us",
+  "@contact_us": {
+    "description": "Contact label"
+  },
+  "subscribe": "Subscribe on YouTube",
+  "@subscribe": {
+    "description": "YouTube subscribe button"
+  },
+  "follow": "Follow on Facebook",
+  "@follow": {
+    "description": "Facebook follow button"
+  },
+  "offline": "Device Offline",
+  "@offline": {
+    "description": "Offline status banner"
+  },
+  "last_update": "Last Update",
+  "@last_update": {
+    "description": "Last update label"
+  },
+  "uptime": "Uptime",
+  "@uptime": {
+    "description": "Uptime label"
+  },
+  "signal": "Signal",
+  "@signal": {
+    "description": "WiFi signal label"
+  },
+  "ble_setup": "BLE Setup",
+  "@ble_setup": {
+    "description": "BLE setup button"
+  },
+  "scanning": "Scanning…",
+  "@scanning": {
+    "description": "BLE scanning state"
+  },
+  "connecting": "Connecting…",
+  "@connecting": {
+    "description": "Connecting state"
+  },
+  "success": "Success",
+  "@success": {
+    "description": "Success state"
+  },
+  "failed": "Failed",
+  "@failed": {
+    "description": "Failed state"
+  },
+  "no_devices": "No devices found",
+  "@no_devices": {
+    "description": "Empty device list message"
+  },
+  "sign_in_subtitle": "Sign in to your account",
+  "@sign_in_subtitle": {
+    "description": "Login subtitle"
+  },
+  "join_subtitle": "Join Smart IoT Interface",
+  "@join_subtitle": {
+    "description": "Register subtitle"
+  },
+  "display_name": "Display Name",
+  "@display_name": {
+    "description": "Display name field label"
+  },
+  "display_name_hint": "Your full name",
+  "@display_name_hint": {
+    "description": "Display name hint"
+  },
+  "email_address": "Email Address",
+  "@email_address": {
+    "description": "Email address label"
+  },
+  "email_required": "Email is required",
+  "@email_required": {
+    "description": "Email validation error"
+  },
+  "remember_me": "Remember me",
+  "@remember_me": {
+    "description": "Remember me checkbox"
+  },
+  "sign_in": "Sign In",
+  "@sign_in": {
+    "description": "Sign In button"
+  },
+  "create_account": "Create Account",
+  "@create_account": {
+    "description": "Create Account button"
+  },
+  "no_account": "Don't have an account? ",
+  "@no_account": {
+    "description": "No account prompt"
+  },
+  "already_account": "Already have an account? ",
+  "@already_account": {
+    "description": "Already have account prompt"
+  },
+  "account_created": "Account created! Please verify your email.",
+  "@account_created": {
+    "description": "Account creation success"
+  },
+  "enter_email_first": "Enter your email first, then tap Forgot Password.",
+  "@enter_email_first": {
+    "description": "Forgot password email validation"
+  },
+  "reset_email_sent": "Password reset email sent. Check your inbox.",
+  "@reset_email_sent": {
+    "description": "Password reset success"
+  },
+  "reset_email_failed": "Failed to send reset email.",
+  "@reset_email_failed": {
+    "description": "Password reset failure"
+  },
+  "sign_out": "Sign Out",
+  "@sign_out": {
+    "description": "Sign out button"
+  },
+  "sign_out_confirm": "Are you sure you want to sign out?",
+  "@sign_out_confirm": {
+    "description": "Sign out confirmation dialog body"
+  },
+  "cancel": "Cancel",
+  "@cancel": {
+    "description": "Cancel button"
+  },
+  "confirm": "Confirm",
+  "@confirm": {
+    "description": "Confirm button"
+  },
+  "retry": "Retry",
+  "@retry": {
+    "description": "Retry button"
+  },
+  "save": "Save",
+  "@save": {
+    "description": "Save button"
+  },
+  "save_name": "Save Name",
+  "@save_name": {
+    "description": "Save name button"
+  },
+  "enter_your_name": "Enter your name",
+  "@enter_your_name": {
+    "description": "Name field hint"
+  },
+  "set_your_name": "Set your name",
+  "@set_your_name": {
+    "description": "Name placeholder"
+  },
+  "active": "Active",
+  "@active": {
+    "description": "Active status badge"
+  },
+  "edit_display_name": "Edit Display Name",
+  "@edit_display_name": {
+    "description": "Edit display name button"
+  },
+  "profile": "Edit Profile",
+  "@profile": {
+    "description": "Profile edit menu row and sheet title"
+  },
+  "device_management": "DEVICE MANAGEMENT",
+  "@device_management": {
+    "description": "Device management section header"
+  },
+  "appearance": "APPEARANCE",
+  "@appearance": {
+    "description": "Appearance section header"
+  },
+  "support_social": "SUPPORT & SOCIAL",
+  "@support_social": {
+    "description": "Support section header"
+  },
+  "pump_schedules": "Pump Schedules",
+  "@pump_schedules": {
+    "description": "Pump schedules nav item"
+  },
+  "pump_schedules_sub": "Set automatic on/off times",
+  "@pump_schedules_sub": {
+    "description": "Pump schedules subtitle"
+  },
+  "device_sharing": "Device Sharing",
+  "@device_sharing": {
+    "description": "Device sharing nav item"
+  },
+  "device_sharing_sub": "Share access with others",
+  "@device_sharing_sub": {
+    "description": "Device sharing subtitle"
+  },
+  "youtube_sub": "Subscribe to our channel",
+  "@youtube_sub": {
+    "description": "YouTube subtitle"
+  },
+  "facebook_sub": "Follow our page",
+  "@facebook_sub": {
+    "description": "Facebook subtitle"
+  },
+  "could_not_open_link": "Could not open link.",
+  "@could_not_open_link": {
+    "description": "Link open error"
+  },
+  "logout_confirm_title": "Logout",
+  "@logout_confirm_title": {
+    "description": "Logout dialog title"
+  },
+  "logout_confirm_msg": "Are you sure you want to logout?",
+  "@logout_confirm_msg": {
+    "description": "Logout confirmation message"
+  },
+  "display_name_updated": "Display name updated!",
+  "@display_name_updated": {
+    "description": "Display name update success"
+  },
+  "display_name_failed": "Failed to update name.",
+  "@display_name_failed": {
+    "description": "Display name update failure"
+  },
+  "made_in_bd": "Made with Ὁ9 in Bangladesh 🇧🇩",
+  "@made_in_bd": {
+    "description": "Made in Bangladesh footer"
+  },
+  "app_name_label": "App Name",
+  "@app_name_label": {
+    "description": "App name info row label"
+  },
+  "company": "Company",
+  "@company": {
+    "description": "Company label"
+  },
+  "history_analytics": "History & Analytics",
+  "@history_analytics": {
+    "description": "History screen header"
+  },
+  "history_clear_title": "Clear History?",
+  "@history_clear_title": {
+    "description": "History clear dialog title"
+  },
+  "history_clear_msg": "All local history for this device will be cleared. Firebase critical events will not be deleted.",
+  "@history_clear_msg": {
+    "description": "History clear dialog message"
+  },
+  "history_cleared": "Local history cleared.",
+  "@history_cleared": {
+    "description": "History cleared success"
+  },
+  "delete": "Delete",
+  "@delete": {
+    "description": "Delete button"
+  },
+  "refresh": "Refresh",
+  "@refresh": {
+    "description": "Refresh button"
+  },
+  "clear_history": "Clear History",
+  "@clear_history": {
+    "description": "Clear history menu item"
+  },
+  "search_events": "Search events...",
+  "@search_events": {
+    "description": "Event search hint"
+  },
+  "events_last_30": "Events — Last 30 Days",
+  "@events_last_30": {
+    "description": "Events chart title"
+  },
+  "event_by_type": "Events by Type",
+  "@event_by_type": {
+    "description": "Event type chart title"
+  },
+  "pump_overview": "Pump Overview",
+  "@pump_overview": {
+    "description": "Pump overview section title"
+  },
+  "no_data": "No data",
+  "@no_data": {
+    "description": "Empty data placeholder"
+  },
+  "no_events": "No events recorded yet",
+  "@no_events": {
+    "description": "No events message"
+  },
+  "events_hint": "Events will appear here when pump turns on/off",
+  "@events_hint": {
+    "description": "Events hint text"
+  },
+  "history_loading": "Loading history...",
+  "@history_loading": {
+    "description": "History loading text"
+  },
+  "try_again": "Try Again",
+  "@try_again": {
+    "description": "Try again button"
+  },
+  "firebase_sync_note": "Critical events also sync to Firebase • Spark plan is free",
+  "@firebase_sync_note": {
+    "description": "Firebase sync note"
+  },
+  "add_new_device": "Add New Device",
+  "@add_new_device": {
+    "description": "Device setup title"
+  },
+  "ble_wifi_provisioning": "Bluetooth WiFi Provisioning",
+  "@ble_wifi_provisioning": {
+    "description": "BLE provisioning subtitle"
+  },
+  "ble_provision_desc": "Configure ESP32 WiFi via Bluetooth\nThen auto-register on Firebase",
+  "@ble_provision_desc": {
+    "description": "BLE provisioning description"
+  },
+  "ble_time_note": "Full process takes ~2 minutes",
+  "@ble_time_note": {
+    "description": "BLE time estimate"
+  },
+  "ble_ready": "All set! Start BLE Setup.",
+  "@ble_ready": {
+    "description": "BLE ready message"
+  },
+  "start_ble_setup": "Start BLE Setup",
+  "@start_ble_setup": {
+    "description": "Start BLE setup button"
+  },
+  "wifi_provisioning_title": "WiFi Provisioning",
+  "@wifi_provisioning_title": {
+    "description": "WiFi provisioning title"
+  },
+  "unified_provisioning": "Espressif Unified Provisioning",
+  "@unified_provisioning": {
+    "description": "Unified provisioning label"
+  },
+  "tap_to_scan": "Tap to connect & scan WiFi",
+  "@tap_to_scan": {
+    "description": "Tap to scan instruction"
+  },
+  "wifi_list_refresh": "Refresh WiFi list",
+  "@wifi_list_refresh": {
+    "description": "Refresh WiFi list button"
+  },
+  "provisioning_done": "Provisioning complete!",
+  "@provisioning_done": {
+    "description": "Provisioning success header"
+  },
+  "register_firebase": "Register on Firebase",
+  "@register_firebase": {
+    "description": "Firebase registration button"
+  },
+  "back_to_dashboard": "Back to Dashboard",
+  "@back_to_dashboard": {
+    "description": "Back to dashboard button"
+  },
+  "ble_scanning_msg": "BLE scan in progress… (a few seconds)",
+  "@ble_scanning_msg": {
+    "description": "BLE scan in progress message"
+  },
+  "reset": "Reset",
+  "@reset": {
+    "description": "Reset button"
+  },
+  "device_registered": "Device registered successfully!",
+  "@device_registered": {
+    "description": "Device registered snackbar"
+  },
+  "error_colon": "Error: {msg}",
+  "@error_colon": {
+    "description": "Error prefix with message",
+    "placeholders": {
+      "msg": {
+        "type": "String"
+      }
+    }
+  },
+  "ble_scan_step": "Scan",
+  "@ble_scan_step": {
+    "description": "BLE step: scan"
+  },
+  "pump_duration": "Pump Duration",
+  "@pump_duration": {
+    "description": "Pump duration dialog title"
+  },
+  "pump_duration_question": "How long should the pump run?",
+  "@pump_duration_question": {
+    "description": "Pump duration question"
+  },
+  "pump_schedules_title": "Pump Schedules",
+  "@pump_schedules_title": {
+    "description": "Schedule screen title"
+  },
+  "add_schedule": "Add Schedule",
+  "@add_schedule": {
+    "description": "Add schedule button"
+  },
+  "no_schedules": "No Schedules Yet",
+  "@no_schedules": {
+    "description": "Empty schedules message"
+  },
+  "add_first_schedule": "Add First Schedule",
+  "@add_first_schedule": {
+    "description": "Add first schedule button"
+  },
+  "schedule_deleted": "Schedule deleted.",
+  "@schedule_deleted": {
+    "description": "Schedule deleted success"
+  },
+  "automation_deleted": "Automation deleted.",
+  "@automation_deleted": {
+    "description": "Automation deleted success"
+  },
+  "scene_deleted": "Scene deleted.",
+  "@scene_deleted": {
+    "description": "Scene deleted success"
+  },
+  "schedule_delete_failed": "Failed to delete.",
+  "@schedule_delete_failed": {
+    "description": "Schedule delete failure"
+  },
+  "schedule_saved": "Schedule saved.",
+  "@schedule_saved": {
+    "description": "Schedule saved success"
+  },
+  "schedule_save_failed": "Failed to save.",
+  "@schedule_save_failed": {
+    "description": "Schedule save failure"
+  },
+  "share_with_user": "Share with a user",
+  "@share_with_user": {
+    "description": "Sharing section title"
+  },
+  "share": "Share",
+  "@share": {
+    "description": "Share button"
+  },
+  "revoke": "Revoke",
+  "@revoke": {
+    "description": "Revoke access button"
+  },
+  "revoke_access_title": "Remove Access?",
+  "@revoke_access_title": {
+    "description": "Revoke access dialog title"
+  },
+  "not_shared": "Not shared with anyone",
+  "@not_shared": {
+    "description": "Empty shared users message"
+  },
+  "cannot_share_self": "Cannot share with yourself.",
+  "@cannot_share_self": {
+    "description": "Self share error"
+  },
+  "already_shared": "Already shared with this user.",
+  "@already_shared": {
+    "description": "Already shared error"
+  },
+  "access_granted": "Access granted to {email}.",
+  "@access_granted": {
+    "description": "Access granted message",
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "share_failed": "Failed to share.",
+  "@share_failed": {
+    "description": "Share failure"
+  },
+  "access_revoked": "Access revoked.",
+  "@access_revoked": {
+    "description": "Access revoked success"
+  },
+  "revoke_failed": "Failed to revoke.",
+  "@revoke_failed": {
+    "description": "Revoke failure"
+  },
+  "remove": "Remove",
+  "@remove": {
+    "description": "Remove button"
+  },
+  "email_hint": "user@example.com",
+  "@email_hint": {
+    "description": "Email hint in sharing"
+  },
+  "language_english": "English",
+  "@language_english": {
+    "description": "English language option"
+  },
+  "language_bengali": "বাংলা",
+  "@language_bengali": {
+    "description": "Bengali language option"
+  },
+  "err_user_not_found": "No account found with this email.",
+  "@err_user_not_found": {
+    "description": "Firebase: user-not-found"
+  },
+  "err_wrong_password": "Incorrect password. Please try again.",
+  "@err_wrong_password": {
+    "description": "Firebase: wrong-password"
+  },
+  "err_email_in_use": "This email is already registered.",
+  "@err_email_in_use": {
+    "description": "Firebase: email-already-in-use"
+  },
+  "err_invalid_email": "Please enter a valid email address.",
+  "@err_invalid_email": {
+    "description": "Firebase: invalid-email"
+  },
+  "err_weak_password": "Password must be at least 6 characters.",
+  "@err_weak_password": {
+    "description": "Firebase: weak-password"
+  },
+  "err_too_many_requests": "Too many attempts. Please try again later.",
+  "@err_too_many_requests": {
+    "description": "Firebase: too-many-requests"
+  },
+  "err_user_disabled": "This account has been disabled.",
+  "@err_user_disabled": {
+    "description": "Firebase: user-disabled"
+  },
+  "err_network": "Network error. Please check your connection.",
+  "@err_network": {
+    "description": "Firebase: network-request-failed"
+  },
+  "err_invalid_credential": "Invalid email or password.",
+  "@err_invalid_credential": {
+    "description": "Firebase: invalid-credential"
+  },
+  "err_operation_not_allowed": "This operation is not allowed.",
+  "@err_operation_not_allowed": {
+    "description": "Firebase: operation-not-allowed"
+  },
+  "err_permission_denied": "You don't have permission for this action.",
+  "@err_permission_denied": {
+    "description": "Firestore: permission-denied"
+  },
+  "err_not_found": "The requested data was not found.",
+  "@err_not_found": {
+    "description": "Firestore: not-found"
+  },
+  "err_generic": "Something went wrong. Please try again.",
+  "@err_generic": {
+    "description": "Generic fallback error"
+  },
+  "ble_found_devices": "Found ESP32 Devices ({count})",
+  "@ble_found_devices": {
+    "description": "BLE devices found header",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "ble_wifi_enter": "Enter WiFi Details:",
+  "@ble_wifi_enter": {
+    "description": "WiFi credentials section title"
+  },
+  "ble_wifi_ssid_hint": "WiFi Name (SSID)",
+  "@ble_wifi_ssid_hint": {
+    "description": "SSID field hint"
+  },
+  "ble_wifi_pass_hint": "Password",
+  "@ble_wifi_pass_hint": {
+    "description": "WiFi password hint"
+  },
+  "ble_connect_sending": "Connecting…",
+  "@ble_connect_sending": {
+    "description": "BLE sending state button label"
+  },
+  "ble_connect_wifi": "Connect to WiFi",
+  "@ble_connect_wifi": {
+    "description": "WiFi connect button"
+  },
+  "ble_retry": "Try Again",
+  "@ble_retry": {
+    "description": "BLE retry button"
+  },
+  "ble_start_scan": "Start BLE Scan",
+  "@ble_start_scan": {
+    "description": "BLE start scan button"
+  },
+  "ble_note_existing": "Only works on new or factory-reset ESP32 devices. Will not work on devices already connected to WiFi. Arduino IDE → Tools → Partition Scheme → \"No OTA (2MB APP)\".",
+  "@ble_note_existing": {
+    "description": "BLE provisioning note"
+  },
+  "ble_step_scanning": "BLE Scan in progress…",
+  "@ble_step_scanning": {
+    "description": "BLE step: scanning title"
+  },
+  "ble_step_scan_done": "Device found",
+  "@ble_step_scan_done": {
+    "description": "BLE step: scan done title"
+  },
+  "ble_step_connecting": "Connecting…",
+  "@ble_step_connecting": {
+    "description": "BLE step: connecting title"
+  },
+  "ble_step_wifi_ready": "Select WiFi",
+  "@ble_step_wifi_ready": {
+    "description": "BLE step: wifi ready title"
+  },
+  "ble_step_sending": "Sending credentials…",
+  "@ble_step_sending": {
+    "description": "BLE step: sending title"
+  },
+  "ble_step_success": "Provisioning successful! ✅",
+  "@ble_step_success": {
+    "description": "BLE step: success title"
+  },
+  "ble_step_failed": "Failed",
+  "@ble_step_failed": {
+    "description": "BLE step: failed title"
+  },
+  "ble_step_default": "Espressif WiFi Provisioning",
+  "@ble_step_default": {
+    "description": "BLE step: default title"
+  },
+  "ble_svc_scanning_for": "Searching for \"{prefix}\" devices…",
+  "@ble_svc_scanning_for": {
+    "description": "BLE scan start message",
+    "placeholders": {
+      "prefix": {
+        "type": "String"
+      }
+    }
+  },
+  "ble_svc_no_device": "No SmartIoT device found.\n\nPlease make sure:\n• ESP32 is powered ON\n• First-time or factory reset\n• Bluetooth is ON\n• You are within range (≤5m)",
+  "@ble_svc_no_device": {
+    "description": "BLE no device found error"
+  },
+  "ble_svc_found_count": "{count} device(s) found. Select one.",
+  "@ble_svc_found_count": {
+    "description": "BLE devices found count",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "ble_svc_scan_failed": "BLE scan failed: {error}\n\nSolution:\n• Grant Bluetooth permission\n• Grant Location permission (Android ≤11)\n• Settings → Apps → SmartIoT → Permissions",
+  "@ble_svc_scan_failed": {
+    "description": "BLE scan failure",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "ble_svc_connecting_to": "Connecting to {device}…\nScanning WiFi networks…",
+  "@ble_svc_connecting_to": {
+    "description": "BLE connecting message",
+    "placeholders": {
+      "device": {
+        "type": "String"
+      }
+    }
+  },
+  "ble_svc_no_wifi": "No WiFi found. Enter SSID manually.",
+  "@ble_svc_no_wifi": {
+    "description": "BLE no WiFi found"
+  },
+  "ble_svc_wifi_count": "{count} WiFi network(s) found. Select one.",
+  "@ble_svc_wifi_count": {
+    "description": "BLE WiFi count",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "ble_svc_wifi_scan_failed": "Connection/WiFi scan failed: {error}\n\nSolution:\n• Check if Proof-of-Possession matches firmware secrets.h PROV_POP\n• Check if ESP32 is still in provisioning mode\n• Re-scan and try again",
+  "@ble_svc_wifi_scan_failed": {
+    "description": "BLE WiFi scan failure",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "ble_svc_ssid_empty": "WiFi name (SSID) cannot be empty.",
+  "@ble_svc_ssid_empty": {
+    "description": "BLE SSID empty error"
+  },
+  "ble_svc_no_device_selected": "No device selected. Please scan again.",
+  "@ble_svc_no_device_selected": {
+    "description": "BLE no device selected"
+  },
+  "ble_svc_sending": "Sending credentials to \"{ssid}\"…\nESP32 connecting to WiFi…",
+  "@ble_svc_sending": {
+    "description": "BLE sending credentials",
+    "placeholders": {
+      "ssid": {
+        "type": "String"
+      }
+    }
+  },
+  "ble_svc_success": "✅ WiFi Provisioning successful!\n\nESP32 is connecting to \"{ssid}\".\nDashboard will show ONLINE within ~15 seconds.\n\nRegister the device on Firebase.",
+  "@ble_svc_success": {
+    "description": "BLE provisioning success",
+    "placeholders": {
+      "ssid": {
+        "type": "String"
+      }
+    }
+  },
+  "ble_svc_prov_failed": "Provisioning failed: {error}\n\nSolution:\n• Check SSID/password is correct\n• Use 2.4GHz WiFi (ESP32 doesn't support 5GHz)\n• Check ESP32 is within WiFi range",
+  "@ble_svc_prov_failed": {
+    "description": "BLE provisioning failure",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "ble_svc_error_occurred": "An error occurred",
+  "@ble_svc_error_occurred": {
+    "description": "BLE generic error"
+  },
+  "ble_svc_register_device": "Register the device on Firebase.",
+  "@ble_svc_register_device": {
+    "description": "BLE register device prompt"
+  },
+  "ds_how_it_works": "How It Works",
+  "@ds_how_it_works": {
+    "description": "Device setup flow section label"
+  },
+  "ds_before_start": "Before You Start",
+  "@ds_before_start": {
+    "description": "Device setup checklist section label"
+  },
+  "ds_note_account": "Device will only be registered to your Firebase account",
+  "@ds_note_account": {
+    "description": "Device setup account note"
+  },
+  "ds_note_auto": "Auto-register after BLE — no extra steps needed",
+  "@ds_note_auto": {
+    "description": "Device setup auto-register note"
+  },
+  "ds_check_bt": "Bluetooth is ON",
+  "@ds_check_bt": {
+    "description": "Checklist: bluetooth"
+  },
+  "ds_check_bt_sub": "Phone Settings → Bluetooth → ON",
+  "@ds_check_bt_sub": {
+    "description": "Checklist: bluetooth sublabel"
+  },
+  "ds_check_power": "SmartIoT Device powered ON",
+  "@ds_check_power": {
+    "description": "Checklist: power"
+  },
+  "ds_check_power_sub": "LED blinking fast = Setup mode active",
+  "@ds_check_power_sub": {
+    "description": "Checklist: power sublabel"
+  },
+  "ds_check_nowifi": "ESP32 not connected to any WiFi",
+  "@ds_check_nowifi": {
+    "description": "Checklist: no wifi"
+  },
+  "ds_check_nowifi_sub": "First-time setup: no credentials stored",
+  "@ds_check_nowifi_sub": {
+    "description": "Checklist: no wifi sublabel"
+  },
+  "ds_check_location": "Location Permission granted",
+  "@ds_check_location": {
+    "description": "Checklist: location"
+  },
+  "ds_check_location_sub": "Required for Android BLE scan",
+  "@ds_check_location_sub": {
+    "description": "Checklist: location sublabel"
+  },
+  "ds_flow_ble_scan": "BLE Scan",
+  "@ds_flow_ble_scan": {
+    "description": "Flow step: BLE scan title"
+  },
+  "ds_flow_ble_scan_desc": "App finds nearby SmartIoT devices",
+  "@ds_flow_ble_scan_desc": {
+    "description": "Flow step: BLE scan desc"
+  },
+  "ds_flow_wifi_scan": "WiFi Scan",
+  "@ds_flow_wifi_scan": {
+    "description": "Flow step: WiFi scan title"
+  },
+  "ds_flow_wifi_scan_desc": "ESP32 scans all nearby WiFi networks",
+  "@ds_flow_wifi_scan_desc": {
+    "description": "Flow step: WiFi scan desc"
+  },
+  "ds_flow_credentials": "Credentials",
+  "@ds_flow_credentials": {
+    "description": "Flow step: credentials title"
+  },
+  "ds_flow_credentials_desc": "Your WiFi password is sent via encrypted BLE",
+  "@ds_flow_credentials_desc": {
+    "description": "Flow step: credentials desc"
+  },
+  "ds_flow_register": "Auto-Register",
+  "@ds_flow_register": {
+    "description": "Flow step: auto-register title"
+  },
+  "ds_flow_register_desc": "Device auto-registers on Firebase after WiFi ✅",
+  "@ds_flow_register_desc": {
+    "description": "Flow step: auto-register desc"
+  },
+  "hist_no_device": "No device selected.",
+  "@hist_no_device": {
+    "description": "History: no device selected error"
+  },
+  "hist_scroll_more": "Scroll for more…",
+  "@hist_scroll_more": {
+    "description": "History: scroll for more"
+  },
+  "hist_all_seen": "All events loaded",
+  "@hist_all_seen": {
+    "description": "History: all events loaded"
+  },
+  "hist_stat_total": "Total",
+  "@hist_stat_total": {
+    "description": "History stat: total"
+  },
+  "hist_stat_pump_on": "Pump ON",
+  "@hist_stat_pump_on": {
+    "description": "History stat: pump on"
+  },
+  "hist_stat_alert": "Alert",
+  "@hist_stat_alert": {
+    "description": "History stat: alert"
+  },
+  "hist_stat_low": "Low Level",
+  "@hist_stat_low": {
+    "description": "History stat: low level"
+  },
+  "hist_filter_all": "All",
+  "@hist_filter_all": {
+    "description": "History filter: all"
+  },
+  "hist_just_now": "Just now",
+  "@hist_just_now": {
+    "description": "History time: just now"
+  },
+  "hist_minutes_ago": "{m} min ago",
+  "@hist_minutes_ago": {
+    "description": "History time: minutes ago",
+    "placeholders": {
+      "m": {
+        "type": "int"
+      }
+    }
+  },
+  "hist_hours_ago": "{h} hr ago",
+  "@hist_hours_ago": {
+    "description": "History time: hours ago",
+    "placeholders": {
+      "h": {
+        "type": "int"
+      }
+    }
+  },
+  "hist_days_ago": "{d} days ago",
+  "@hist_days_ago": {
+    "description": "History time: days ago",
+    "placeholders": {
+      "d": {
+        "type": "int"
+      }
+    }
+  },
+  "hist_saved_phone": "Saved on phone",
+  "@hist_saved_phone": {
+    "description": "History: saved locally tooltip"
+  },
+  "hist_grid_total": "Total Events",
+  "@hist_grid_total": {
+    "description": "Grid: total events"
+  },
+  "hist_grid_pump_on": "Pump ON",
+  "@hist_grid_pump_on": {
+    "description": "Grid: pump on"
+  },
+  "hist_grid_pump_off": "Pump OFF",
+  "@hist_grid_pump_off": {
+    "description": "Grid: pump off"
+  },
+  "hist_grid_low": "Low Level",
+  "@hist_grid_low": {
+    "description": "Grid: low level"
+  },
+  "hist_grid_dry": "Dry Run",
+  "@hist_grid_dry": {
+    "description": "Grid: dry run"
+  },
+  "hist_grid_alarm": "Alarm",
+  "@hist_grid_alarm": {
+    "description": "Grid: alarm"
+  },
+  "share_user_not_found": "No account found with this email. Ask them to log in to the app first.",
+  "@share_user_not_found": {
+    "description": "Sharing: user not found error"
+  },
+  "nav_dashboard": "Dashboard",
+  "@nav_dashboard": {
+    "description": "Bottom nav: dashboard"
+  },
+  "nav_history": "History",
+  "@nav_history": {
+    "description": "Bottom nav: history"
+  },
+  "nav_settings": "Settings",
+  "@nav_settings": {
+    "description": "Bottom nav: settings"
+  },
+  "tab_events": "Events",
+  "@tab_events": {
+    "description": "History tab: events"
+  },
+  "tab_analytics": "Analytics",
+  "@tab_analytics": {
+    "description": "History tab: analytics"
+  },
+  "hist_events_saved": "{count} events • saved on phone",
+  "@hist_events_saved": {
+    "description": "History subtitle",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "hist_events_count": "{count} events saved on phone",
+  "@hist_events_count": {
+    "description": "History event count",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "hist_load_failed": "Failed to load history: {error}",
+  "@hist_load_failed": {
+    "description": "History load error",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "email_support": "Email Support",
+  "@email_support": {
+    "description": "Support: email"
+  },
+  "call_support": "Call Support",
+  "@call_support": {
+    "description": "Support: call"
+  },
+  "initializing": "Initializing…",
+  "@initializing": {
+    "description": "Splash: initializing text"
+  },
+  "made_with_love": "Made with 💙 in Bangladesh 🇧🇩",
+  "@made_with_love": {
+    "description": "Splash: made with love"
+  },
+  "ble_prov_done_detail": "ESP32 has saved WiFi credentials.\nOpen Dashboard and register when device is ONLINE.",
+  "@ble_prov_done_detail": {
+    "description": "BLE provisioning done detail text"
+  },
+  "ds_how_it_works_section": "How It Works",
+  "@ds_how_it_works_section": {
+    "description": "Device setup section header"
+  },
+  "loading_devices": "Loading devices…",
+  "@loading_devices": {
+    "description": "Dashboard loading state"
+  },
+  "schedule_summary": "Pump ON for {duration} min  •  {status}",
+  "@schedule_summary": {
+    "description": "Schedule tile summary",
+    "placeholders": {
+      "duration": {
+        "type": "int"
+      },
+      "status": {
+        "type": "String"
+      }
+    }
+  },
+  "schedule_enabled": "Enabled",
+  "@schedule_enabled": {
+    "description": "Schedule: enabled"
+  },
+  "schedule_disabled": "Disabled",
+  "@schedule_disabled": {
+    "description": "Schedule: disabled"
+  },
+  "revoke_confirm_user": "Revoke access for {user}?",
+  "@revoke_confirm_user": {
+    "description": "Revoke access confirm",
+    "placeholders": {
+      "user": {
+        "type": "String"
+      }
+    }
+  },
+  "ble_advertise_note": "ESP32 advertises as \"PROV_SmartIoT_XXXXXX\".\nThis is the BLE device name — select it from the list.",
+  "@ble_advertise_note": {
+    "description": "BLE advertise note"
+  },
+  "wifi_networks_found": "WiFi Networks ({count})",
+  "@wifi_networks_found": {
+    "description": "WiFi networks section title",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "lang_btn_bengali": "বাং",
+  "@lang_btn_bengali": {
+    "description": "Language button: Bengali short label"
+  },
+  "ctrl_water_pump": "Water Pump",
+  "@ctrl_water_pump": {
+    "description": "Control panel: water pump label"
+  },
+  "ctrl_device_offline": "Device is offline",
+  "@ctrl_device_offline": {
+    "description": "Control: device offline reason"
+  },
+  "ctrl_manual_required": "Switch to Manual mode to control pump",
+  "@ctrl_manual_required": {
+    "description": "Control: manual mode required"
+  },
+  "ctrl_mode_label": "Control Mode",
+  "@ctrl_mode_label": {
+    "description": "Control: mode label"
+  },
+  "ctrl_mode_auto_sub": "Automatic (ESP32-managed)",
+  "@ctrl_mode_auto_sub": {
+    "description": "Control: auto mode sublabel"
+  },
+  "ctrl_mode_manual_sub": "Manual override",
+  "@ctrl_mode_manual_sub": {
+    "description": "Control: manual sublabel"
+  },
+  "ctrl_sending": "Sending command…",
+  "@ctrl_sending": {
+    "description": "Control: sending command"
+  },
+  "dash_device_info": "DEVICE INFO",
+  "@dash_device_info": {
+    "description": "Dashboard section: device info"
+  },
+  "dash_pump_stats": "PUMP STATISTICS",
+  "@dash_pump_stats": {
+    "description": "Dashboard section: pump stats"
+  },
+  "dash_device_online": "Device Online",
+  "@dash_device_online": {
+    "description": "Dashboard: device online label"
+  },
+  "dash_device_offline": "Device Offline",
+  "@dash_device_offline": {
+    "description": "Dashboard: device offline label"
+  },
+  "dash_dry_run": "DRY RUN",
+  "@dash_dry_run": {
+    "description": "Dashboard: dry run badge"
+  },
+  "dash_alarm": "ALARM",
+  "@dash_alarm": {
+    "description": "Dashboard: alarm badge"
+  },
+  "dash_last_update": "LAST UPDATE",
+  "@dash_last_update": {
+    "description": "Dashboard info: last update"
+  },
+  "dash_sensor_mode": "SENSOR MODE",
+  "@dash_sensor_mode": {
+    "description": "Dashboard info: sensor mode"
+  },
+  "dash_uptime_label": "UPTIME",
+  "@dash_uptime_label": {
+    "description": "Dashboard info: uptime"
+  },
+  "dash_cycles": "CYCLES",
+  "@dash_cycles": {
+    "description": "Dashboard info: cycles"
+  },
+  "dash_total_run": "TOTAL RUN",
+  "@dash_total_run": {
+    "description": "Dashboard info: total run"
+  },
+  "dash_signal_label": "SIGNAL",
+  "@dash_signal_label": {
+    "description": "Dashboard info: signal"
+  },
+  "dash_dry_run_alert": "Dry Run Protection",
+  "@dash_dry_run_alert": {
+    "description": "Dashboard alert: dry run"
+  },
+  "dash_critical_alert": "Critical Alert",
+  "@dash_critical_alert": {
+    "description": "Dashboard alert: critical"
+  },
+  "dash_no_device": "No Device Found",
+  "@dash_no_device": {
+    "description": "Dashboard: no device empty state"
+  },
+  "dash_add_device": "Add Device",
+  "@dash_add_device": {
+    "description": "Dashboard: add device button"
+  },
+  "dash_toggle_theme": "Toggle theme",
+  "@dash_toggle_theme": {
+    "description": "Dashboard: theme toggle tooltip"
+  },
+  "dash_add_device_tooltip": "Add device",
+  "@dash_add_device_tooltip": {
+    "description": "Dashboard: add device tooltip"
+  },
+  "level_full": "Full",
+  "@level_full": {
+    "description": "Water level: full"
+  },
+  "level_mid": "Medium",
+  "@level_mid": {
+    "description": "Water level: medium"
+  },
+  "level_low": "Low",
+  "@level_low": {
+    "description": "Water level: low"
+  },
+  "level_empty": "Empty",
+  "@level_empty": {
+    "description": "Water level: empty"
+  },
+  "level_unknown": "Unknown",
+  "@level_unknown": {
+    "description": "Water level: unknown"
+  },
+  "auth_err_no_account": "No account found with this email.",
+  "@auth_err_no_account": {
+    "description": "Auth: no account"
+  },
+  "auth_err_wrong_password": "Incorrect email or password.",
+  "@auth_err_wrong_password": {
+    "description": "Auth: wrong password"
+  },
+  "auth_err_invalid_email": "Please enter a valid email address.",
+  "@auth_err_invalid_email": {
+    "description": "Auth: invalid email"
+  },
+  "auth_err_disabled": "This account has been disabled. Contact support.",
+  "@auth_err_disabled": {
+    "description": "Auth: account disabled"
+  },
+  "auth_err_email_in_use": "An account already exists with this email. Please login.",
+  "@auth_err_email_in_use": {
+    "description": "Auth: email in use"
+  },
+  "auth_err_weak_password": "Password is too weak. Use at least 8 characters with numbers.",
+  "@auth_err_weak_password": {
+    "description": "Auth: weak password"
+  },
+  "auth_err_not_allowed": "Email/Password sign-in is not enabled.",
+  "@auth_err_not_allowed": {
+    "description": "Auth: not allowed"
+  },
+  "auth_err_network": "No internet connection. Please check your network.",
+  "@auth_err_network": {
+    "description": "Auth: network error"
+  },
+  "auth_err_too_many": "Too many attempts. Please wait a moment and try again.",
+  "@auth_err_too_many": {
+    "description": "Auth: too many requests"
+  },
+  "auth_err_generic": "Authentication error. Please try again.",
+  "@auth_err_generic": {
+    "description": "Auth: generic error"
+  },
+  "auth_err_unexpected": "Unexpected error. Please try again.",
+  "@auth_err_unexpected": {
+    "description": "Auth: unexpected"
+  },
+  "pwd_min_8": "Minimum 8 characters required",
+  "@pwd_min_8": {
+    "description": "Password: min 8 chars"
+  },
+  "pwd_need_number": "Must contain a number",
+  "@pwd_need_number": {
+    "description": "Password: needs number"
+  },
+  "notif_dry_run_title": "⚠️ Dry Run Alert!",
+  "@notif_dry_run_title": {
+    "description": "Notification: dry run title"
+  },
+  "notif_dry_run_body": "{name}: Pump running without water! Level: {pct}%",
+  "@notif_dry_run_body": {
+    "description": "Notification: dry run body",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "pct": {
+        "type": "int"
+      }
+    }
+  },
+  "notif_alarm_title": "🚨 Alarm Active",
+  "@notif_alarm_title": {
+    "description": "Notification: alarm title"
+  },
+  "notif_alarm_body": "{name}: Alert active! Water level: {level} ({pct}%)",
+  "@notif_alarm_body": {
+    "description": "Notification: alarm body",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "level": {
+        "type": "String"
+      },
+      "pct": {
+        "type": "int"
+      }
+    }
+  },
+  "notif_pump_on_title": "💧 Pump Started",
+  "@notif_pump_on_title": {
+    "description": "Notification: pump on title"
+  },
+  "notif_pump_on_body": "{name}: Pump running. Water level: {pct}%",
+  "@notif_pump_on_body": {
+    "description": "Notification: pump on body",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "pct": {
+        "type": "int"
+      }
+    }
+  },
+  "notif_pump_off_title": "✅ Pump Stopped",
+  "@notif_pump_off_title": {
+    "description": "Notification: pump off title"
+  },
+  "notif_pump_off_body": "{name}: Pump stopped. Water level: {pct}%",
+  "@notif_pump_off_body": {
+    "description": "Notification: pump off body",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "pct": {
+        "type": "int"
+      }
+    }
+  },
+  "notif_low_title": "🪣 Water Low!",
+  "@notif_low_title": {
+    "description": "Notification: low water title"
+  },
+  "notif_low_body": "{name}: Water level dangerously low ({pct}%)",
+  "@notif_low_body": {
+    "description": "Notification: low water body",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "pct": {
+        "type": "int"
+      }
+    }
+  },
+  "notif_full_title": "🎉 Tank Full!",
+  "@notif_full_title": {
+    "description": "Notification: tank full title"
+  },
+  "notif_full_body": "{name}: Tank is full ({pct}%)",
+  "@notif_full_body": {
+    "description": "Notification: tank full body",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "pct": {
+        "type": "int"
+      }
+    }
+  },
+  "svc_reconnecting": "Connection interrupted. Reconnecting…",
+  "@svc_reconnecting": {
+    "description": "Device service: reconnecting message"
+  },
+  "brand_secure": "Secure & Encrypted",
+  "@brand_secure": {
+    "description": "Login footer: secure text"
+  },
+  "calib_title": "Sensor Calibration",
+  "calib_info": "Enter your tank dimensions so the app can calculate exact water volume in liters.",
+  "calib_tank_dimensions": "TANK DIMENSIONS",
+  "calib_sensor_distances": "SENSOR DISTANCES",
+  "calib_sensor_hint": "Measure from sensor (mounted at top) to water surface when tank is empty or full.",
+  "calib_tank_height": "Tank Height",
+  "calib_capacity": "Tank Capacity",
+  "calib_empty_distance": "Distance when Empty",
+  "calib_full_distance": "Distance when Full",
+  "calib_err_positive": "Must be a positive number",
+  "calib_err_nonneg": "Must be 0 or more",
+  "calib_err_exceeds_height": "Cannot exceed tank height",
+  "calib_err_full_less_empty": "Must be less than empty distance",
+  "calib_current_water": "Current water",
+  "calib_saved": "Calibration saved.",
+  "calib_save_failed": "Failed to save calibration.",
+  "calib_save": "Save Calibration",
+  "thresh_title": "Alarm Thresholds",
+  "thresh_current_level": "Current level",
+  "thresh_pump_control": "PUMP CONTROL",
+  "thresh_alerts": "ALERT TRIGGERS",
+  "thresh_pump_start": "Pump Start Level",
+  "thresh_pump_start_sub": "Pump turns ON when water drops below this",
+  "thresh_pump_stop": "Pump Stop Level",
+  "thresh_pump_stop_sub": "Pump turns OFF when water rises above this",
+  "thresh_low_alert": "Low Water Alert",
+  "thresh_low_alert_sub": "Notification when water falls below this",
+  "thresh_dry_run": "Dry-Run Alarm",
+  "thresh_dry_run_sub": "Emergency stop — pump on but tank is empty",
+  "thresh_warn_order": "Pump start level must be higher than dry-run threshold.",
+  "thresh_saved": "Thresholds saved and pushed to device.",
+  "thresh_save_failed": "Failed to save thresholds.",
+  "thresh_save": "Save Thresholds",
+  "usage_title": "Water Usage",
+  "usage_tab_week": "This Week",
+  "usage_tab_month": "This Month",
+  "usage_today": "Today",
+  "usage_this_week": "This Week",
+  "usage_this_month": "This Month",
+  "usage_total": "All Time",
+  "usage_flow_rate": "Flow Rate",
+  "usage_flow_rate_title": "Set Pump Flow Rate",
+  "usage_flow_rate_label": "Flow rate",
+  "usage_flow_rate_hint": "Check your pump label or measure manually. This is used to estimate liters from pump runtime.",
+  "usage_daily_chart": "Daily Usage (Liters)",
+  "usage_tank_fills": "Estimated tank fills",
+  "usage_estimate_note": "Estimates based on pump runtime × flow rate. Set your pump's flow rate for accuracy.",
+  "saving": "Saving...",
+  "sign_in_google": "Continue with Google",
+  "@sign_in_google": {
+    "description": "Google sign-in button label"
+  },
+  "or_continue_with": "or continue with",
+  "@or_continue_with": {
+    "description": "Divider between email and social login"
+  },
+  "auth_err_google_failed": "Google Sign-In failed. Please try again.",
+  "@auth_err_google_failed": {
+    "description": "Error when Google Sign-In fails"
+  },
+  "auth_err_account_exists": "An account already exists with this email using a different sign-in method.",
+  "@auth_err_account_exists": {
+    "description": "Error when account exists with different credential"
+  },
+  "google_sign_in_cancelled": "Google Sign-In was cancelled.",
+  "@google_sign_in_cancelled": {
+    "description": "Message when user cancels Google Sign-In"
+  },
+  "pwd_required": "Password is required",
+  "@pwd_required": {
+    "description": "Password required validation message"
+  },
+  "pwd_need_upper": "Must contain an uppercase letter",
+  "@pwd_need_upper": {
+    "description": "Password uppercase validation message"
+  },
+  "ble_step_connect": "Connect",
+  "ble_step_wifi": "WiFi",
+  "notifications": "Notifications",
+  "@notifications": {
+    "description": "Settings: notifications menu label"
+  },
+  "trackConsumption": "Track water consumption",
+  "@trackConsumption": {
+    "description": "Settings: water usage sublabel"
+  },
+  "eventsAnalytics": "Events & Analytics",
+  "@eventsAnalytics": {
+    "description": "Settings: history sublabel"
+  },
+  "youtube": "YouTube",
+  "@youtube": {
+    "description": "Settings: YouTube social link label"
+  },
+  "youtubeDesc": "Subscribe to our channel",
+  "@youtubeDesc": {
+    "description": "Settings: YouTube sublabel"
+  },
+  "facebook": "Facebook",
+  "@facebook": {
+    "description": "Settings: Facebook social link label"
+  },
+  "facebookDesc": "Follow our page",
+  "@facebookDesc": {
+    "description": "Settings: Facebook sublabel"
+  },
+  "voice_service": "Voice Service",
+  "@voice_service": {
+    "description": "Settings: voice service menu label"
+  },
+  "voice_service_coming_soon": "Voice Service — Coming Soon",
+  "@voice_service_coming_soon": {
+    "description": "Settings: voice service coming soon snackbar"
+  },
+  "calib_sub": "Tank dimensions & sensor",
+  "@calib_sub": {
+    "description": "Settings: calibration sublabel"
+  },
+  "thresh_sub": "Pump & alert levels",
+  "@thresh_sub": {
+    "description": "Settings: threshold sublabel"
+  }
+,
+  "welcome_back": "Welcome Back",
+  "@welcome_back": { "description": "Login screen: welcome back title" },
+  "create_account": "Create Account",
+  "@create_account": { "description": "Login screen: create account title" },
+  "email_invalid": "Enter a valid email address",
+  "@email_invalid": { "description": "Login form: invalid email validation message" },
+  "verify_email_banner": "Please verify your email before signing in. Check your inbox for a verification link.",
+  "@verify_email_banner": { "description": "Login screen: email verification banner text" },
+  "email_not_verified_msg": "Email not verified. Check your inbox and click the verification link.",
+  "@email_not_verified_msg": { "description": "Auth error: email not verified message" },
+  "create_account_btn": "Create Account",
+  "@create_account_btn": { "description": "Login screen: create account submit button" },
+  "phone_sign_in": "Sign in with Phone",
+  "@phone_sign_in": { "description": "Login screen: phone sign-in button label" },
+  "phone_sign_in_subtitle": "Sign in using your mobile number",
+  "@phone_sign_in_subtitle": { "description": "Login screen: phone sign-in subtitle" },
+  "phone_number": "Phone Number",
+  "@phone_number": { "description": "Login screen: phone number field label" },
+  "phone_number_hint": "+880 1XXX XXXXXX",
+  "@phone_number_hint": { "description": "Login screen: phone number field hint" },
+  "phone_number_required": "Phone number is required",
+  "@phone_number_required": { "description": "Login screen: phone number required validation" },
+  "phone_number_invalid": "Enter a valid phone number with country code",
+  "@phone_number_invalid": { "description": "Login screen: phone number invalid validation" },
+  "phone_country_hint": "Include country code, e.g. +880 for Bangladesh",
+  "@phone_country_hint": { "description": "Login screen: phone country code hint" },
+  "send_otp": "Send OTP",
+  "@send_otp": { "description": "Login screen: send OTP button label" },
+  "otp_code": "OTP Code",
+  "@otp_code": { "description": "Login screen: OTP input field label" },
+  "otp_hint": "6-digit code",
+  "@otp_hint": { "description": "Login screen: OTP field hint" },
+  "verify_otp": "Verify",
+  "@verify_otp": { "description": "Login screen: verify OTP button label" },
+  "otp_sent": "OTP sent to",
+  "@otp_sent": { "description": "Login screen: OTP sent confirmation (followed by phone number)" },
+  "resend_otp": "Resend OTP",
+  "@resend_otp": { "description": "Login screen: resend OTP link" },
+  "change_number": "Change Number",
+  "@change_number": { "description": "Login screen: change phone number link" },
+  "enter_otp_title": "Enter OTP",
+  "@enter_otp_title": { "description": "Login screen: OTP entry card title" },
+  "enter_otp_subtitle": "Enter the 6-digit code sent to your phone",
+  "@enter_otp_subtitle": { "description": "Login screen: OTP entry subtitle" },
+  "otp_required": "Please enter the OTP",
+  "@otp_required": { "description": "Login screen: OTP required validation" },
+  "otp_invalid_length": "OTP must be 6 digits",
+  "@otp_invalid_length": { "description": "Login screen: OTP length validation" },
+  "use_email_instead": "Use email instead",
+  "@use_email_instead": { "description": "Login screen: back to email button" },
+  "auth_err_invalid_phone": "Invalid phone number. Include country code (e.g. +880).",
+  "@auth_err_invalid_phone": { "description": "Auth error: invalid phone number" },
+  "auth_err_invalid_otp": "Invalid OTP code. Please try again.",
+  "@auth_err_invalid_otp": { "description": "Auth error: invalid OTP" },
+  "auth_err_otp_expired": "OTP has expired. Please request a new one.",
+  "@auth_err_otp_expired": { "description": "Auth error: OTP session expired" },
+  "auth_err_phone_failed": "Phone sign-in failed. Please try again.",
+  "@auth_err_phone_failed": { "description": "Auth error: generic phone sign-in failure" }
+,
+  "have_account": "Already have an account? ",
+  "@have_account": { "description": "Login toggle row: already registered prompt" },
+  "sign_in_now": "Sign In",
+  "@sign_in_now": { "description": "Login toggle row: sign-in link text" },
+  "register_now": "Register",
+  "@register_now": { "description": "Login toggle row: register link text" },
+  "auto_new_title": "New Automation",
+  "@auto_new_title": { "description": "Automations screen: new rule sheet title" },
+  "auto_if_trigger": "IF — Trigger",
+  "@auto_if_trigger": { "description": "Automations screen: IF section header" },
+  "auto_then_action": "THEN — Action",
+  "@auto_then_action": { "description": "Automations screen: THEN section header" },
+  "auto_save": "Save Automation",
+  "@auto_save": { "description": "Automations screen: save button" },
+  "auto_empty_title": "No Automations",
+  "@auto_empty_title": { "description": "Automations screen: empty state title" },
+  "auto_empty_sub": "Create IF→THEN rules that run automatically on your ESP32.",
+  "@auto_empty_sub": { "description": "Automations screen: empty state subtitle" },
+  "auto_add_first": "Add First Rule",
+  "@auto_add_first": { "description": "Automations screen: empty state CTA button" },
+  "auto_if_label": "IF  {label}",
+  "@auto_if_label": {
+    "description": "Automations screen: IF trigger label",
+    "placeholders": { "label": { "type": "String" } }
+  },
+  "auto_then_label": "THEN  {label}",
+  "@auto_then_label": {
+    "description": "Automations screen: THEN action label",
+    "placeholders": { "label": { "type": "String" } }
+  },
+  "scene_new_title": "New Scene",
+  "@scene_new_title": { "description": "Scenes screen: new scene sheet title" },
+  "scene_icon_label": "Icon",
+  "@scene_icon_label": { "description": "Scenes screen: icon section label" },
+  "scene_pump_label": "Pump",
+  "@scene_pump_label": { "description": "Scenes screen: pump section label" },
+  "scene_mode_label": "Mode",
+  "@scene_mode_label": { "description": "Scenes screen: mode section label" },
+  "scene_color_label": "Color",
+  "@scene_color_label": { "description": "Scenes screen: color section label" },
+  "scene_save": "Save Scene",
+  "@scene_save": { "description": "Scenes screen: save button" },
+  "scene_empty_title": "No Scenes Yet",
+  "@scene_empty_title": { "description": "Scenes screen: empty state title" },
+  "scene_empty_sub": "Tap + to create a scene, or add defaults.",
+  "@scene_empty_sub": { "description": "Scenes screen: empty state subtitle" },
+  "scene_add_defaults": "Add Default Scenes",
+  "@scene_add_defaults": { "description": "Scenes screen: add defaults button" },
+  "usage_flow_hint": "5 L/min = Standard pump\n15 L/min = 0.5HP pump\n25 L/min = 1HP pump",
+  "@usage_flow_hint": { "description": "Water usage: flow rate guide text" }
+,
+  "swipe_to_delete": "Swipe left to delete",
+  "@swipe_to_delete": { "description": "Hint text on swipeable list items" },
+  "country_code_auto_label": "Auto-detected: {code}",
+  "@country_code_auto_label": {
+    "description": "Login screen: shows auto-detected country dial code",
+    "placeholders": {
+      "code": { "type": "String", "example": "+880" }
+    }
+  },
+  "phone_e164_hint": "E.g. +8801711000000",
+  "@phone_e164_hint": { "description": "Login screen: E.164 format hint for phone number" }
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    SmartIoT Network Security Config
+    - All traffic must be HTTPS (cleartext blocked globally)
+    - Only system-trusted CAs are accepted
+    - Firebase, Google APIs and Firebase Storage are all HTTPS-only — covered by base-config
+-->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <certificates src="system"/>
+        </trust-anchors>
+    </base-config>
+</network-security-config>

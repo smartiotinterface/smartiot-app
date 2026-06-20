@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- SmartIoT brand colors -->
+    <color name="brand_primary">#1565C0</color>
+    <color name="brand_splash_bg">#0D1B2A</color>
+    <color name="ic_launcher_background">#1565C0</color>
+</resources>
