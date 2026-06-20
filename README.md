@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # SmartIoT v1.0.2 — Smart Water Tank Monitor 🇧🇩
 
 **ESP32 + Firebase + Flutter** দিয়ে তৈরি পানির ট্যাংক monitoring ও control system।
@@ -134,3 +135,7 @@ flutter run
 
 ---
 *Made with 💙 in Bangladesh 🇧🇩 | © 2025-2026 SMART IoT Interface*
+=======
+# smartiot-app
+SmartIoT — Flutter app + ESP32 firmware (water level control)
+>>>>>>> caf49db40bd5f68cc0e002f7e73d07768fe1a0a0
